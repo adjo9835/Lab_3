@@ -14,5 +14,5 @@ grep -Ec "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" regex_practice.tx
 grep -Eo "303-[0-9]{3}-[0-9]{4}" regex_practice.txt
 grep -E "@geocities.com" regex_practice.txt > email_results.txt
 git add email_results.txt
-git commit "Some default message"
+git commit "Some default message here"
 
